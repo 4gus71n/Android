@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello ue!</string>
+    <string name="app_name">ue</string>
+    <string name="guardar">Guardar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_test_remote">TestRemoteActivity</string>
+    <string name="test_login">Login</string>
+    <string name="test_signup">Signup</string>
+    <string name="test_certificates">TestCertificates</string>
+    <string name="title_activity_test">TestActivity</string>
+
+</resources>

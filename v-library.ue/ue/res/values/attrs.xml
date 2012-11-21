@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InstantCustomStates">
+        <attr name="state_tminus4" format="boolean" />
+        <attr name="state_tminus3" format="boolean" />
+        <attr name="state_tminus2" format="boolean" />
+        <attr name="state_tminus1" format="boolean" />
+        <attr name="state_failed" format="boolean" />
+        <attr name="_state_checked" format="boolean" />
+    </declare-styleable>
+</resources>
