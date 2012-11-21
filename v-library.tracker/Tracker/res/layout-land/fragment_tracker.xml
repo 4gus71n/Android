@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="48sp" />
+
+    <ImageButton
+        android:id="@+id/trigger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/trigger_description"
+        android:onClick="triggerClick"
+        android:src="@drawable/green_badge" />
+
+    <LinearLayout
+        android:id="@+id/tags_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/save_tags"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/save_time_content_description"
+                android:onClick="saveTimeClick"
+                android:src="@drawable/ic_input_add" />
+
+            <ImageButton
+                android:id="@+id/discard_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/discard_time_content_description"
+                android:onClick="discardTimeClick"
+                android:src="@drawable/ic_delete" />
+        </LinearLayout>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/tags"
+            android:textColor="@color/mycolorautocomplete"  
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tracker_tags_hint" />
+    </LinearLayout>
+
+</RelativeLayout>

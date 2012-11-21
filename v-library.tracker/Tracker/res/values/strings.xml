@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tracker</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_tracker">Tracker</string>
+    <!-- Trigger button -->
+    <string name="trigger_start">Start</string>
+    <string name="too_earlier">¡No ha pasado sufuciente tiempo!</string>
+    <string name="trigger_stop">Stop</string>
+    <string name="trigger_description">Start/stop the counter</string>
+    <string name="title_activity_stat">StatActivity</string>
+ 	<string name="hello">Stat</string>
+    <string name="title_activity_main">Time tracking app</string>
+    <string name="tracker_tags_hint">tags</string>
+    <string name="tracker_tags_save">Save</string>
+    <string name="time_saved">Tiempo guardado</string>
+    <string name="error_saving">Ingrese un nombre</string>
+    <string name="error_timeshort">El tiempo es muy corto!</string>
+    <string name="discard_prompt">¿Descartar el tiempo contado?</string>
+    <string name="time_discarded">Tiempo descartado</string>
+    <string name="save_time_content_description">Guardar tiempo</string>
+    <string name="discard_time_content_description">Descartar tiempo</string>
+    <string name="akrasia_service_started">AKRASIASERVICESTARTED</string>
+    <string name="akrasia_service_stopped">AKRASIASERVICESTOPED</string>
+    <string name="test">test</string>
+</resources>
