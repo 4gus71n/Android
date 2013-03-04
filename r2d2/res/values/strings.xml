@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">r2d2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="test">Test_1</string>
+    <string name="default_login_user">your@user.com</string>
+    <string name="default_login_password">password</string>
+    <string name="login">Login</string>
+    <string name="signin">Signin</string>
+    <string name="log_result">r2d2 1.0</string>
+    <string name="title_activity_application">ApplicationActivity</string>
+
+</resources>
